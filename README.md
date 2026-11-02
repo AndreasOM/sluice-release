@@ -6,6 +6,7 @@ Binaries: [Releases](../../releases), one tarball per platform.
 
 ## Changelog
 
+- 0.3.0 (2026-11-02): labels with fonts and anchors, a clock plugin, plugin settings pages, protocol 3, and fixes.
 - 0.2.0 (2026-10-23): first pre-release, macOS arm64 only.
 
 ## License
@@ -21,4 +22,5 @@ One row per plugin someone ran on real hardware or in CI; "untested" is not "bro
 | [Elgato CPU](https://marketplace.elgato.com/stream-deck/plugins) (`com.elgato.cpu`) | vendor `*.sdPlugin` via `sluice-plugin-sdhost` | yes, Neo, 2026-10-22 | untested | untested | bundled with the vendor app, so it is already in its Plugins folder; quit the app first |
 | [TikClock](https://github.com/GDWhisper/opendeck-tikclock) (`com.gdwhisper.tikclock` 1.1.0) | OpenAction, native | yes, Neo, 2026-10-22; property inspector in the browser 2026-10-24 | yes, CI on a dummy Neo | untested | pinned download in `scripts/openaction-smoke.sh` |
 | [`sluice-plugin-ram`](https://github.com/AndreasOM/sluice-release/releases) | sluice native provider, in every tarball | yes, Neo, 2026-10-23 | yes, CI | untested | |
+| [`sluice-plugin-clock`](https://github.com/AndreasOM/sluice-release/releases) | sluice native provider, in every tarball | yes, Neo info bar + key, 2026-10-24 | yes, CI | untested | strftime `format`, `lines` with per-text anchor/font/style |
 | [`sluice-plugin-echo`](https://github.com/AndreasOM/sluice-release/releases) | sluice native, in every tarball | yes | yes, CI | untested | smallest plugin, logs invocations |
