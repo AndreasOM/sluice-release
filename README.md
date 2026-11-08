@@ -6,6 +6,7 @@ Binaries: [Releases](../../releases), one tarball per platform.
 
 ## Changelog
 
+- 0.3.1 (2026-11-08): Raspberry Pi builds (Linux arm64 and armv7, for Raspberry Pi OS Trixie), and the built-in server releases its device threads on shutdown, so the app no longer crashes at exit on Linux.
 - 0.3.0 (2026-11-02): labels with fonts and anchors, a clock plugin, plugin settings pages, protocol 3, and fixes.
 - 0.2.0 (2026-10-23): first pre-release, macOS arm64 only.
 
